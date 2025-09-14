@@ -1,11 +1,10 @@
 import React from 'react'
+import NavBar from './components/NavBar'
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold text-blue-600">
-      Tailwind is Working 🚀
-    </h1>
+     <NavBar/>
     </div>
   )
 }
